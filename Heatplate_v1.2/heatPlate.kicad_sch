@@ -1092,6 +1092,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Q_NMOS_GDS"
 			(pin_names
 				(offset 0) hide)
@@ -7229,12 +7375,6 @@
 		(uuid "19f9fce8-8fa0-461c-93cd-d674060a3dc7")
 	)
 	(junction
-		(at 55.88 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a0ed28f-d843-4ca9-8047-38843f2f0261")
-	)
-	(junction
 		(at 358.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7325,6 +7465,12 @@
 		(uuid "7fc2800d-aec8-4bc8-83dd-058155873b8b")
 	)
 	(junction
+		(at 73.66 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8561d1c8-fc75-4f84-b998-a51cbca31642")
+	)
+	(junction
 		(at 350.52 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7349,7 +7495,7 @@
 		(uuid "9e5cc83f-e8ab-4778-962b-323b29015b00")
 	)
 	(junction
-		(at 69.85 40.64)
+		(at 83.82 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2c00f78-bfc6-4941-8fb4-3594d690e1e2")
@@ -7373,7 +7519,7 @@
 		(uuid "ae10ec6a-ef3a-4b47-99a1-a9c91c215e32")
 	)
 	(junction
-		(at 87.63 40.64)
+		(at 95.25 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be2518ac-2b35-427f-8495-f7c19870ffa3")
@@ -7804,16 +7950,6 @@
 		)
 		(uuid "0f2afcb5-66f6-4431-ba9f-567fab1c9e55")
 	)
-	(wire
-		(pts
-			(xy 58.42 43.18) (xy 52.07 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fab4a5f-80f9-40ab-8583-0115154e5e36")
-	)
 	(polyline
 		(pts
 			(xy 271.78 209.55) (xy 487.68 209.55)
@@ -8134,6 +8270,16 @@
 		)
 		(uuid "26ea6d6c-7a5b-4ff4-889e-5551abab66da")
 	)
+	(wire
+		(pts
+			(xy 58.42 40.64) (xy 63.5 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "275ffdc8-b1ea-4049-beb6-a7218216c894")
+	)
 	(polyline
 		(pts
 			(xy 15.24 25.4) (xy 15.24 154.94)
@@ -8183,16 +8329,6 @@
 			(type dash)
 		)
 		(uuid "2a168e1e-121c-4828-853e-c67ef784e221")
-	)
-	(wire
-		(pts
-			(xy 52.07 40.64) (xy 55.88 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a907600-422e-4277-aaff-08ea62c661da")
 	)
 	(wire
 		(pts
@@ -8453,16 +8589,6 @@
 			(type default)
 		)
 		(uuid "409aae0d-abdb-49c8-b52a-80e636f4433e")
-	)
-	(wire
-		(pts
-			(xy 87.63 40.64) (xy 105.41 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43cd296d-37a0-47aa-94e6-6035a26f8df5")
 	)
 	(wire
 		(pts
@@ -8976,7 +9102,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 40.64) (xy 69.85 40.64)
+			(xy 73.66 40.64) (xy 83.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -9686,6 +9812,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 40.64) (xy 95.25 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad732974-ffb7-4524-bb64-343617a5a880")
+	)
+	(wire
+		(pts
 			(xy 67.31 242.57) (xy 67.31 245.11)
 		)
 		(stroke
@@ -9836,7 +9972,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 58.42 43.18)
+			(xy 58.42 40.64) (xy 58.42 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9863,6 +9999,26 @@
 			(type default)
 		)
 		(uuid "bdbc9a1e-90db-4465-a970-d3251f202ce3")
+	)
+	(wire
+		(pts
+			(xy 95.25 40.64) (xy 105.41 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd0e2e6-a059-43af-abd5-4520b55139b5")
+	)
+	(wire
+		(pts
+			(xy 68.58 40.64) (xy 73.66 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b340cb-2abb-4eaa-b386-dc25d73ec9a0")
 	)
 	(wire
 		(pts
@@ -10093,16 +10249,6 @@
 			(type default)
 		)
 		(uuid "d6e9ffdc-f00c-4c2d-81b6-648cb7779755")
-	)
-	(wire
-		(pts
-			(xy 52.07 43.18) (xy 52.07 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6ed6fe8-cd70-4279-ab93-8e06743aec8d")
 	)
 	(wire
 		(pts
@@ -10463,16 +10609,6 @@
 			(type default)
 		)
 		(uuid "ee01c2da-3b01-470f-97aa-9a1814c775bd")
-	)
-	(wire
-		(pts
-			(xy 69.85 40.64) (xy 87.63 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef610fbe-d564-42d1-9a0c-47fc08b6fdff")
 	)
 	(wire
 		(pts
@@ -12095,6 +12231,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 309.88 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e2d16fc-4e5b-464d-995f-128a1b6d52b4")
+		(property "Reference" "C23"
+			(at 312.42 349.2562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 312.42 351.7962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 309.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 309.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Information" "X7R"
+			(at 309.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1711"
+			(at 309.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number Alternative" "C49678"
+			(at 309.88 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a94d9628-efc2-45f9-926a-6c827cf8507e")
+		)
+		(pin "2"
+			(uuid "79c6eec3-e28f-4777-914f-2a7499c5daaa")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 356.87 303.53 0)
 		(unit 1)
@@ -12793,7 +13026,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 35.56 180)
+		(at 73.66 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12802,7 +13035,7 @@
 		(fields_autoplaced yes)
 		(uuid "24630f35-697b-41fe-88b3-a703827398e3")
 		(property "Reference" "#PWR050"
-			(at 55.88 29.21 0)
+			(at 73.66 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12811,7 +13044,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 30.48 0)
+			(at 73.66 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12819,7 +13052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 35.56 0)
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12828,7 +13061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 35.56 0)
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12837,7 +13070,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 35.56 0)
+			(at 73.66 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13255,7 +13488,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 87.63 38.1 180)
+		(at 95.25 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13264,7 +13497,7 @@
 		(fields_autoplaced yes)
 		(uuid "2811e215-49dc-41ca-acff-30c55ab6e855")
 		(property "Reference" "C20"
-			(at 85.09 39.9162 0)
+			(at 92.71 39.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13273,7 +13506,7 @@
 			)
 		)
 		(property "Value" "680u/16V"
-			(at 85.09 37.3762 0)
+			(at 92.71 37.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13282,7 +13515,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 87.63 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13291,7 +13524,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13300,7 +13533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13309,7 +13542,7 @@
 			)
 		)
 		(property "Information" "ripple current > 1A"
-			(at 87.63 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13318,7 +13551,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C88760"
-			(at 87.63 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13327,7 +13560,7 @@
 			)
 		)
 		(property "LCSC Part Number Alternative" "C124221"
-			(at 87.63 38.1 0)
+			(at 95.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15557,7 +15790,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 87.63 35.56 180)
+		(at 95.25 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15566,7 +15799,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cbd24fe-f826-4065-bddb-3a3945aa1d12")
 		(property "Reference" "#PWR048"
-			(at 87.63 29.21 0)
+			(at 95.25 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15575,7 +15808,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 30.48 0)
+			(at 95.25 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15583,7 +15816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 35.56 0)
+			(at 95.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15592,7 +15825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 35.56 0)
+			(at 95.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15601,7 +15834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 35.56 0)
+			(at 95.25 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16380,7 +16613,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 35.56 180)
+		(at 83.82 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16389,7 +16622,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bf653b9-3caa-41ad-ae8e-8500db46ee19")
 		(property "Reference" "#PWR049"
-			(at 69.85 29.21 0)
+			(at 83.82 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16398,7 +16631,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 30.48 0)
+			(at 83.82 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16406,7 +16639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 35.56 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16415,7 +16648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 35.56 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16424,7 +16657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 35.56 0)
+			(at 83.82 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17415,6 +17648,102 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "TEMP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 66.04 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc39da8-a2f5-41b1-8306-39ef2685e8ba")
+		(property "Reference" "F1"
+			(at 66.04 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A"
+			(at 66.04 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
+			(at 71.12 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Information" "alt part costs more, but can be assembled by JLCPCB"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C910846"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number Alternative" "C108585"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa95a1b8-5368-4ada-9d2f-0a20baefbd7a")
+		)
+		(pin "2"
+			(uuid "710c95ec-8d6b-49a4-bd6b-f7da415eff15")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -19368,7 +19697,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 55.88 38.1 180)
+		(at 73.66 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19376,7 +19705,7 @@
 		(dnp no)
 		(uuid "df28e9a1-a9d6-4bbb-a040-734dfd112019")
 		(property "Reference" "C22"
-			(at 63.5 50.8 0)
+			(at 81.28 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19386,7 +19715,7 @@
 			)
 		)
 		(property "Value" "680u/16V"
-			(at 53.34 37.3762 0)
+			(at 71.12 37.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19396,7 +19725,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 55.88 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19405,7 +19734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19414,7 +19743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19423,7 +19752,7 @@
 			)
 		)
 		(property "Information" "ripple current > 1A"
-			(at 55.88 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19432,7 +19761,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C88760"
-			(at 55.88 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19441,7 +19770,7 @@
 			)
 		)
 		(property "LCSC Part Number Alternative" "C124221"
-			(at 55.88 38.1 0)
+			(at 73.66 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19666,7 +19995,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 69.85 38.1 180)
+		(at 83.82 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19675,7 +20004,7 @@
 		(fields_autoplaced yes)
 		(uuid "e92686ec-1053-4748-83d3-ab06d7eb2876")
 		(property "Reference" "C21"
-			(at 67.31 39.9162 0)
+			(at 81.28 39.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19684,7 +20013,7 @@
 			)
 		)
 		(property "Value" "680u/16V"
-			(at 67.31 37.3762 0)
+			(at 81.28 37.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19693,7 +20022,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 69.85 38.1 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19702,7 +20031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 38.1 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19711,7 +20040,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 38.1 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19720,7 +20049,7 @@
 			)
 		)
 		(property "Information" "ripple current > 1A"
-			(at 69.85 38.1 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19729,7 +20058,7 @@
 			)
 		)
 		(property "LCSC Part Number" "C88760"
-			(at 69.85 38.1 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19738,7 +20067,7 @@
 			)
 		)
 		(property "LCSC Part Number Alternative" "C124221"
-			(at 69.85 38.1 0)
+			(at 83.82 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20370,7 +20699,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 309.88 347.98 0)
+		(at 309.88 353.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20379,7 +20708,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe38d240-dcf8-4a42-a17f-18eb0614ee4e")
 		(property "Reference" "#PWR029"
-			(at 309.88 354.33 0)
+			(at 309.88 359.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20388,7 +20717,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 309.88 353.06 0)
+			(at 309.88 358.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20396,7 +20725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 309.88 347.98 0)
+			(at 309.88 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20405,7 +20734,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 309.88 347.98 0)
+			(at 309.88 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20414,7 +20743,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 309.88 347.98 0)
+			(at 309.88 353.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
