@@ -7115,6 +7115,137 @@
 				)
 			)
 		)
+		(symbol "power:+VDC"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+VDC"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VDC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+VDC_0_1"
+				(polyline
+					(pts
+						(xy -1.143 3.175) (xy 1.143 3.175)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 3.175)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -7375,6 +7506,12 @@
 		(uuid "19f9fce8-8fa0-461c-93cd-d674060a3dc7")
 	)
 	(junction
+		(at 58.42 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a44478-57f4-413d-8c40-18ac996ce90f")
+	)
+	(junction
 		(at 358.14 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7609,12 +7746,6 @@
 		(uuid "dfa324c8-2f36-4ab8-aea6-be7eee1626e5")
 	)
 	(junction
-		(at 109.22 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4689de9-5a36-48da-ab4a-a982994ff8d5")
-	)
-	(junction
 		(at 67.31 245.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7802,7 +7933,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 40.64) (xy 109.22 48.26)
+			(xy 109.22 40.64) (xy 109.22 63.5)
 		)
 		(stroke
 			(width 0)
@@ -9172,6 +9303,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 63.5) (xy 140.97 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e27d10-2ff4-40da-8184-f88549cb3a4c")
+	)
+	(wire
+		(pts
 			(xy 411.48 48.26) (xy 422.91 48.26)
 		)
 		(stroke
@@ -9629,6 +9770,16 @@
 			(type default)
 		)
 		(uuid "9aab32bd-e3ea-4c2c-8249-699200e9c1d9")
+	)
+	(wire
+		(pts
+			(xy 58.42 38.1) (xy 58.42 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0f9ba2-1963-406f-8725-760b652652e8")
 	)
 	(wire
 		(pts
@@ -10312,16 +10463,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 109.22 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf81a33-0a9b-4911-a79f-ac9beb05b9d7")
-	)
-	(wire
-		(pts
 			(xy 383.54 142.24) (xy 405.13 142.24)
 		)
 		(stroke
@@ -10580,6 +10721,16 @@
 		)
 		(uuid "ea4c2170-9cc2-4fde-9f7e-8a6a48390d6d")
 	)
+	(wire
+		(pts
+			(xy 118.11 59.69) (xy 118.11 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0ce91b-f980-45c4-8af7-3d2c0163eb25")
+	)
 	(polyline
 		(pts
 			(xy 227.33 243.84) (xy 227.33 382.27)
@@ -10589,16 +10740,6 @@
 			(type default)
 		)
 		(uuid "ecd59683-8e0c-4073-9621-d03c46d64ed1")
-	)
-	(wire
-		(pts
-			(xy 118.11 63.5) (xy 140.97 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edbfe57e-b117-4fb6-9b9b-fed078ac84ae")
 	)
 	(polyline
 		(pts
@@ -12885,6 +13026,72 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 58.42 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a1ebf43-9579-411b-8dcf-ed02df234559")
+		(property "Reference" "#PWR051"
+			(at 58.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 58.42 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bca5a22-99f2-450c-b6e5-82fbc7a38405")
+		)
+		(instances
+			(project ""
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16876,16 +17083,15 @@
 	(symbol
 		(lib_name "VBUS_1")
 		(lib_id "power:VBUS")
-		(at 109.22 48.26 270)
+		(at 118.11 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "855aca53-348b-48d2-8a3b-f9c4009d573d")
 		(property "Reference" "#PWR045"
-			(at 105.41 48.26 0)
+			(at 118.11 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16894,7 +17100,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 113.03 48.2599 90)
+			(at 110.49 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16903,7 +17109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 48.26 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16912,7 +17118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 48.26 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16921,7 +17127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 109.22 48.26 0)
+			(at 118.11 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
