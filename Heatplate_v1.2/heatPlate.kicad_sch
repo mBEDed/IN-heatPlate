@@ -7815,6 +7815,12 @@
 		(uuid "59410437-48c4-4692-8307-d1ec698daf46")
 	)
 	(junction
+		(at 236.22 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b09d0ed-655a-47e6-a550-5bc9c4bdf307")
+	)
+	(junction
 		(at 252.73 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8015,10 +8021,6 @@
 		(uuid "2178d8b7-bfd7-4ab8-aaac-2456acd12c32")
 	)
 	(no_connect
-		(at 227.33 129.54)
-		(uuid "2bc25741-bf09-48fa-b12a-58d578d574ac")
-	)
-	(no_connect
 		(at 320.04 123.19)
 		(uuid "2f3030e3-ced1-41ca-b778-5705506c99f6")
 	)
@@ -8057,14 +8059,6 @@
 	(no_connect
 		(at 320.04 125.73)
 		(uuid "5137245f-3aff-4575-990c-6ebb0f6ddb41")
-	)
-	(no_connect
-		(at 227.33 118.11)
-		(uuid "77c38545-7df3-49f3-995b-abda816b0661")
-	)
-	(no_connect
-		(at 227.33 132.08)
-		(uuid "848e7ce2-020a-43e6-8ab5-e84d48696bd3")
 	)
 	(no_connect
 		(at 320.04 120.65)
@@ -8564,7 +8558,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 118.11) (xy 227.33 118.11)
+			(xy 241.3 118.11) (xy 236.22 118.11)
 		)
 		(stroke
 			(width 0)
@@ -8581,6 +8575,16 @@
 			(type default)
 		)
 		(uuid "204a80a6-2175-4807-9128-0348929f4d3d")
+	)
+	(wire
+		(pts
+			(xy 236.22 113.03) (xy 236.22 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2062d88f-0f0f-4720-a39b-acf2e2b503a6")
 	)
 	(wire
 		(pts
@@ -9101,6 +9105,16 @@
 			(type default)
 		)
 		(uuid "503b821d-364c-4aec-aab1-d2354af6908c")
+	)
+	(wire
+		(pts
+			(xy 226.06 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "518b4388-2e1b-46ef-9865-0488ee31ffa7")
 	)
 	(wire
 		(pts
@@ -10052,6 +10066,16 @@
 		)
 		(uuid "9aab32bd-e3ea-4c2c-8249-699200e9c1d9")
 	)
+	(wire
+		(pts
+			(xy 215.9 118.11) (xy 212.09 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2aecb8-5db1-45dd-9168-3b77cb50841e")
+	)
 	(polyline
 		(pts
 			(xy 36.83 125.095) (xy 36.83 166.37)
@@ -10814,6 +10838,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 118.11) (xy 212.09 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de471299-b156-4a28-a568-836785ac6387")
+	)
+	(wire
+		(pts
 			(xy 101.6 194.31) (xy 88.9 194.31)
 		)
 		(stroke
@@ -11234,6 +11268,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 113.03) (xy 215.9 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcadb57c-7fa7-49af-9b4f-b8812083d8c1")
+	)
+	(wire
+		(pts
 			(xy 300.99 213.36) (xy 308.61 213.36)
 		)
 		(stroke
@@ -11489,6 +11533,20 @@
 			(justify left bottom)
 		)
 		(uuid "9f128d5f-305c-400f-aa1d-594ecd8d2b0f")
+	)
+	(text "Connect it\nto a GPIO"
+		(exclude_from_sim no)
+		(at 199.136 116.84 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 255 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a240724d-4500-4543-809d-9968839a396a")
 	)
 	(text "Peripherals\n"
 		(exclude_from_sim no)
@@ -11819,7 +11877,7 @@
 		(uuid "39ab3e01-4352-42f4-9f65-761a80a49900")
 	)
 	(label "RUN"
-		(at 227.33 118.11 0)
+		(at 236.22 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16640,6 +16698,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 232.41 118.11 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bf5bfc1-1073-4456-b41b-b63bb7571ee4")
+		(property "Reference" "R16"
+			(at 228.092 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 232.41 115.1636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.41 116.332 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bcb540c1-7bea-4c45-9fbe-660cf5cbe487")
+		)
+		(pin "2"
+			(uuid "e2aa6e85-9626-447d-a59a-7c35b962c2bb")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 59.69 137.16 90)
 		(unit 1)
@@ -17451,6 +17576,71 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 212.09 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e99ab35-dabe-4496-af02-282998c603da")
+		(property "Reference" "#PWR053"
+			(at 212.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 212.217 126.3142 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 212.09 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "355d6e69-7227-4b29-95fa-19725a71a2b2")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -18726,6 +18916,73 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 232.41 113.03 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa308021-ec38-452c-8a99-97edb44277da")
+		(property "Reference" "R17"
+			(at 232.41 107.7722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 232.41 110.0836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 232.41 111.252 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5e32d8e-4ac4-4d4a-ac04-bcc62732b8fa")
+		)
+		(pin "2"
+			(uuid "e95c4667-2467-4e24-a14e-d0ecca87220a")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -20198,6 +20455,91 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 220.98 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d79f2074-f96c-4441-a695-151f1cd59fd9")
+		(property "Reference" "SW3"
+			(at 216.916 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 224.79 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C136682"
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number Alternative" "C202375"
+			(at 220.98 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac07593d-d596-4d91-a26c-208c183296b9")
+		)
+		(pin "2"
+			(uuid "04b5efde-29eb-40a6-8943-95212df6f7a1")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
