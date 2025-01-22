@@ -14291,7 +14291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MSD-1-A:CUI_MSD-1-A"
+		(property "Footprint" "sd_card:microSD_External_Pin"
 			(at 135.89 250.19 0)
 			(effects
 				(font
