@@ -23933,7 +23933,7 @@
 	(footprint "Fuse:Fuse_2920_7451Metric"
 		(layer "F.Cu")
 		(uuid "ec099b82-25b8-41aa-a10f-5451146be4d6")
-		(at 65.25 68.75 90)
+		(at 65.2 69.4 90)
 		(descr "Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F1"
