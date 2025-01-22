@@ -11095,7 +11095,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 230.505) (xy 115.57 232.41)
+			(xy 115.57 231.14) (xy 115.57 232.41)
 		)
 		(stroke
 			(width 0)
@@ -11938,20 +11938,6 @@
 		)
 		(uuid "29d85e04-2c13-4945-a7a0-65332cf0a7b2")
 	)
-	(text "Connect it\nto a GPIO"
-		(exclude_from_sim no)
-		(at 75.438 188.976 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 255 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b93fe5b-5631-46ee-9b9d-38d772a75d0b")
-	)
 	(text "Sens 2"
 		(exclude_from_sim no)
 		(at 125.984 128.016 0)
@@ -12093,20 +12079,6 @@
 			(justify left bottom)
 		)
 		(uuid "9f128d5f-305c-400f-aa1d-594ecd8d2b0f")
-	)
-	(text "Connect it\nto a GPIO"
-		(exclude_from_sim no)
-		(at 199.136 116.84 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 255 255 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a240724d-4500-4543-809d-9968839a396a")
 	)
 	(text "Peripherals\n"
 		(exclude_from_sim no)
@@ -13732,7 +13704,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 115.57 230.505 0)
+		(at 115.57 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13740,7 +13712,7 @@
 		(dnp no)
 		(uuid "13b44705-00cd-432d-8663-96105bb40ca4")
 		(property "Reference" "#PWR054"
-			(at 115.57 234.315 0)
+			(at 115.57 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13749,7 +13721,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 115.951 226.1108 0)
+			(at 109.474 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13757,7 +13729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 230.505 0)
+			(at 115.57 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13766,7 +13738,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 230.505 0)
+			(at 115.57 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13775,7 +13747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 230.505 0)
+			(at 115.57 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
