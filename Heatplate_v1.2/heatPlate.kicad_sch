@@ -4170,6 +4170,427 @@
 				)
 			)
 		)
+		(symbol "MSD-1-A:MSD-1-A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -10.16 21.082 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MSD-1-A"
+				(at -10.16 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "MSD-1-A:CUI_MSD-1-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "Same Sky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.00mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/MSD-1-A/Same+Sky/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "1.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSD-1-A/Same+Sky/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "MSD-1-A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "\n                        \n                            Micro SD Card Connector, 9 Positions, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash\n                        \n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "CUI Devices"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "MSD-1-A_0_0"
+				(rectangle
+					(start -10.16 -20.32)
+					(end 10.16 20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 5.08)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -5.08 0)
+					(length 5.08)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 5.08)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 17.78 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -15.24 12.7 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -15.24 0)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 2.54 0)
+					(length 5.08)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -15.24 -10.16 0)
+					(length 5.08)
+					(name "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "CD"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "COVER_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "COVER_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "COVER_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -15.24 -17.78 0)
+					(length 5.08)
+					(name "COVER_GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -7833,6 +8254,12 @@
 		(uuid "697815b8-b7f9-42c9-b753-5ff5658d569a")
 	)
 	(junction
+		(at 120.65 267.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f409a4e-f2f6-4eca-b487-76fcd6d78835")
+	)
+	(junction
 		(at 110.49 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8013,28 +8440,12 @@
 		(uuid "fd413baf-e8b7-431d-b472-25c7322ca813")
 	)
 	(no_connect
-		(at 320.04 69.85)
-		(uuid "03390389-7394-4129-a489-4e63585565a3")
-	)
-	(no_connect
 		(at 320.04 97.79)
 		(uuid "2178d8b7-bfd7-4ab8-aaac-2456acd12c32")
 	)
 	(no_connect
-		(at 320.04 123.19)
-		(uuid "2f3030e3-ced1-41ca-b778-5705506c99f6")
-	)
-	(no_connect
 		(at 287.02 200.66)
 		(uuid "339f206f-309a-4862-bb8a-9ae49a98f970")
-	)
-	(no_connect
-		(at 320.04 64.77)
-		(uuid "3c7f8414-f569-4c41-a8b4-32765281a1b5")
-	)
-	(no_connect
-		(at 320.04 90.17)
-		(uuid "3ce976dd-5024-4ae8-8c6e-30ab9b562752")
 	)
 	(no_connect
 		(at 320.04 140.97)
@@ -8061,10 +8472,6 @@
 		(uuid "5137245f-3aff-4575-990c-6ebb0f6ddb41")
 	)
 	(no_connect
-		(at 320.04 120.65)
-		(uuid "92c98ea4-49ae-4f35-a5df-bb6bca154f95")
-	)
-	(no_connect
 		(at 320.04 100.33)
 		(uuid "a25d09e9-ec3f-459c-9b44-dd92e6f84f18")
 	)
@@ -8073,12 +8480,16 @@
 		(uuid "bbd429bb-de95-4e42-a06f-2a556fafc13b")
 	)
 	(no_connect
-		(at 320.04 72.39)
-		(uuid "bd1e0dbb-db53-48e0-9f5e-d152fa4e38d9")
+		(at 120.65 250.19)
+		(uuid "c51114cd-fef1-46ef-b787-8a223c22bed4")
 	)
 	(no_connect
 		(at 414.02 198.12)
 		(uuid "c5ecfdf1-3363-4870-b470-e723f8029e84")
+	)
+	(no_connect
+		(at 120.65 252.73)
+		(uuid "ccd3856b-3067-4952-97b5-26936da3ebe2")
 	)
 	(no_connect
 		(at 320.04 92.71)
@@ -8091,10 +8502,6 @@
 	(no_connect
 		(at 320.04 113.03)
 		(uuid "e6cff532-3370-4a24-8813-33fe1334c452")
-	)
-	(no_connect
-		(at 320.04 67.31)
-		(uuid "fc18c48b-a413-4441-9d3c-e1933e1b537e")
 	)
 	(wire
 		(pts
@@ -8238,6 +8645,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 267.97) (xy 120.65 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a936bc2-c8b2-4d52-b38b-e9a17df77f1a")
+	)
+	(wire
+		(pts
 			(xy 130.81 74.93) (xy 130.81 85.09)
 		)
 		(stroke
@@ -8315,6 +8732,16 @@
 			(type default)
 		)
 		(uuid "0d4b8a4a-37b8-4b71-b1f2-2950b5ed8aa1")
+	)
+	(polyline
+		(pts
+			(xy 168.91 226.06) (xy 168.91 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e55fc26-bd12-4d5a-9756-4b0446e6d780")
 	)
 	(wire
 		(pts
@@ -8756,6 +9183,16 @@
 		)
 		(uuid "2f736b2c-47c4-4d44-85e2-668fce3fd62d")
 	)
+	(polyline
+		(pts
+			(xy 106.68 226.06) (xy 168.91 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f7ef2cb-c324-4bca-b387-d3af4290352a")
+	)
 	(wire
 		(pts
 			(xy 345.44 205.74) (xy 345.44 203.2)
@@ -8966,6 +9403,16 @@
 		)
 		(uuid "409aae0d-abdb-49c8-b52a-80e636f4433e")
 	)
+	(polyline
+		(pts
+			(xy 90.17 285.75) (xy 90.17 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446ef421-6347-4c9c-827b-70a7a5f28e4f")
+	)
 	(wire
 		(pts
 			(xy 334.01 214.63) (xy 334.01 213.36)
@@ -9045,6 +9492,16 @@
 			(type default)
 		)
 		(uuid "4b279094-1bba-451a-b0b1-c370c70bd20f")
+	)
+	(wire
+		(pts
+			(xy 115.57 242.57) (xy 120.65 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b3e7031-eb99-43c3-9a0a-eff1cb6a1806")
 	)
 	(wire
 		(pts
@@ -9248,6 +9705,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 232.41) (xy 120.65 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9767b0-1030-41b3-aec4-6acd0fb63b3c")
+	)
+	(wire
+		(pts
 			(xy 300.99 213.36) (xy 300.99 214.63)
 		)
 		(stroke
@@ -9398,6 +9865,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 247.65) (xy 120.65 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68186374-05c8-41ec-8740-dd2df9ede9ed")
+	)
+	(wire
+		(pts
 			(xy 300.99 222.25) (xy 300.99 224.79)
 		)
 		(stroke
@@ -9495,6 +9972,16 @@
 			(type default)
 		)
 		(uuid "6befbf9c-a39b-4301-af3a-0d7c9468c6eb")
+	)
+	(polyline
+		(pts
+			(xy 90.17 226.06) (xy 106.68 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c831118-7aec-49c5-a857-f1d04adec486")
 	)
 	(wire
 		(pts
@@ -9986,6 +10473,16 @@
 		)
 		(uuid "9798fea2-91d1-4e9b-9e9e-d52cbd1107c1")
 	)
+	(polyline
+		(pts
+			(xy 168.91 285.75) (xy 90.17 285.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987cfdf1-0494-4848-b703-12a20c010201")
+	)
 	(wire
 		(pts
 			(xy 372.11 43.18) (xy 372.11 45.72)
@@ -10285,6 +10782,16 @@
 			(type default)
 		)
 		(uuid "b10a4b90-c834-4f5a-855f-a13f24ec2e78")
+	)
+	(wire
+		(pts
+			(xy 116.84 255.27) (xy 120.65 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b144a4f2-b3fd-4089-b24d-b326edef339d")
 	)
 	(wire
 		(pts
@@ -10588,6 +11095,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 230.505) (xy 115.57 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca651d3f-3acc-4eb5-a0e0-b304b0f57ca7")
+	)
+	(wire
+		(pts
 			(xy 237.49 34.29) (xy 252.73 34.29)
 		)
 		(stroke
@@ -10778,6 +11295,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 237.49) (xy 120.65 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8410ba3-43aa-4f26-ac5a-58ef40d0c7c6")
+	)
+	(wire
+		(pts
 			(xy 100.33 114.3) (xy 100.33 116.84)
 		)
 		(stroke
@@ -10955,6 +11482,16 @@
 			(type default)
 		)
 		(uuid "e573d76c-7dd6-4acf-a8ba-c515e7127e7b")
+	)
+	(wire
+		(pts
+			(xy 116.84 260.35) (xy 120.65 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5c9626d-30aa-48c3-8572-58977f85a7e6")
 	)
 	(wire
 		(pts
@@ -11215,6 +11752,16 @@
 			(type default)
 		)
 		(uuid "f43913da-4385-4e36-b243-1e68c17433b9")
+	)
+	(wire
+		(pts
+			(xy 120.65 265.43) (xy 120.65 267.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4ce78e9-c43d-408e-9bcb-ae300c2925b3")
 	)
 	(wire
 		(pts
@@ -11509,6 +12056,19 @@
 			(justify right bottom)
 		)
 		(uuid "8522a98c-e7aa-48fc-873b-415a6e1edc6c")
+	)
+	(text "SD-Card"
+		(exclude_from_sim no)
+		(at 114.3 284.48 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+				(thickness 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8cf13c04-9cc7-46cb-8ff8-15285384e38c")
 	)
 	(text "WARNING:\nMOSFET gate driver is \ninverting, so PWM duty \ncycle is also inverted.\n\n0% duty cycle \n= 100% power"
 		(exclude_from_sim no)
@@ -11836,6 +12396,16 @@
 		)
 		(uuid "32fa10b4-4d4d-413f-ba03-e2b692f26b35")
 	)
+	(label "GPIO2"
+		(at 114.3 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "332c9d9d-34e5-484f-8a74-848616d14f92")
+	)
 	(label "cc2"
 		(at 289.56 208.28 0)
 		(effects
@@ -11945,6 +12515,16 @@
 			(justify left bottom)
 		)
 		(uuid "5a47025c-70ae-483e-aa13-4419ab261edd")
+	)
+	(label "GPIO0"
+		(at 116.84 255.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6188be61-0a76-4183-8e9d-f4ffb72479f0")
 	)
 	(label "GPIO0"
 		(at 320.04 64.77 180)
@@ -12066,6 +12646,16 @@
 		)
 		(uuid "7b251c0a-26f7-4b70-b8e9-581647d7cf88")
 	)
+	(label "GPIO23"
+		(at 215.9 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c6879f7-3512-4f11-863c-cd19e2d83582")
+	)
 	(label "cc2"
 		(at 364.49 193.04 0)
 		(effects
@@ -12086,6 +12676,16 @@
 		)
 		(uuid "8564aa05-6003-4b25-9aa2-743d496ebaaf")
 	)
+	(label "GPIO1"
+		(at 115.57 242.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a93b07f-34b1-4e4b-b81a-c5b2ada17836")
+	)
 	(label "XIN"
 		(at 232.41 185.42 180)
 		(effects
@@ -12105,6 +12705,16 @@
 			(justify right bottom)
 		)
 		(uuid "8ff712e6-9fb0-4747-aee5-0e36f455fb18")
+	)
+	(label "GPIO22"
+		(at 88.9 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "930fbbbb-d7a2-4e63-9412-7e73568e3d16")
 	)
 	(label "SWD"
 		(at 213.36 246.38 0)
@@ -12195,6 +12805,16 @@
 			(justify right bottom)
 		)
 		(uuid "b22e184f-5717-4932-a702-a15b878618ce")
+	)
+	(label "GPIO10"
+		(at 116.84 260.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b3bd0dd2-89c1-49c9-a178-97c1affde96e")
 	)
 	(label "QSPI_SD2"
 		(at 227.33 74.93 0)
@@ -12355,6 +12975,16 @@
 			(justify right bottom)
 		)
 		(uuid "ecbdb928-8871-49bc-89ad-27ae923e4772")
+	)
+	(label "GPIO3"
+		(at 115.57 237.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f1107794-a106-41db-aefc-8d55f1e5620b")
 	)
 	(label "GPIO29_ADC3"
 		(at 320.04 140.97 180)
@@ -13101,6 +13731,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 115.57 230.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13b44705-00cd-432d-8663-96105bb40ca4")
+		(property "Reference" "#PWR054"
+			(at 115.57 234.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.951 226.1108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "266d013b-b494-4450-99f4-52d51cf3490c")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 198.12 0)
 		(unit 1)
@@ -13591,6 +14286,230 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MSD-1-A:MSD-1-A")
+		(at 135.89 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f52f9ed-6598-4983-b459-0e647f6fd492")
+		(property "Reference" "J4"
+			(at 147.32 248.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MSD-1-A"
+			(at 147.32 251.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MSD-1-A:CUI_MSD-1-A"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Same Sky"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.00mm"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/MSD-1-A/Same+Sky/view-part/?ref=eda"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "1.0"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/MSD-1-A/Same+Sky/view-part/?ref=snap"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "MSD-1-A"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Micro SD Card Connector, 9 Positions, Connector and Ejector, Push In, Auto Eject Out, Surface Mount, 1.8 mm Height Above Board, Gold Flash\n                        \n"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "CUI Devices"
+			(at 135.89 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b4bb191e-6991-45c2-8d7f-11c925cee860")
+		)
+		(pin "G4"
+			(uuid "e2065d44-ebc4-4c16-b5b5-e04b6f58c82e")
+		)
+		(pin "1"
+			(uuid "4ece430f-b8c3-4921-a07d-1ee9ce713fbf")
+		)
+		(pin "CD"
+			(uuid "7c0a3f40-7319-4ea1-959f-4545363ad8ff")
+		)
+		(pin "3"
+			(uuid "6e4fbaf5-bbb7-4de7-8e15-a78dc7c3b65d")
+		)
+		(pin "2"
+			(uuid "db7768a5-0e02-4ed7-9788-f6453aff4feb")
+		)
+		(pin "G1"
+			(uuid "939ba0ec-94da-412b-92c5-23c00c52fcd5")
+		)
+		(pin "6"
+			(uuid "ff92416a-36f0-4e3c-aac6-519fa6d3f4da")
+		)
+		(pin "7"
+			(uuid "b6a43f37-f5d0-40b2-be57-38e6a543f50d")
+		)
+		(pin "G3"
+			(uuid "21858070-9ca9-4e79-8a9b-cb32975f2e95")
+		)
+		(pin "8"
+			(uuid "096fb360-6bd9-4232-97e7-ec355f98e448")
+		)
+		(pin "5"
+			(uuid "b1d35095-b32c-4427-9299-4f8685f33080")
+		)
+		(pin "G2"
+			(uuid "c1c2bbcf-117f-4d7c-96fd-3796eadfe296")
+		)
+		(instances
+			(project ""
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -15371,6 +16290,71 @@
 			(project "heatPlate"
 				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 270.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4130592f-1e7a-4498-a29e-d8facf197d94")
+		(property "Reference" "#PWR055"
+			(at 120.65 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e49e8d90-8703-4861-9277-c3992a483861")
+		)
+		(instances
+			(project "heatPlate"
+				(path "/c5775a42-ad58-4e41-8e3a-592694905d7a"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
