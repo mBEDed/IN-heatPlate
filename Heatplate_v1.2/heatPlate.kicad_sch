@@ -8456,10 +8456,6 @@
 		(uuid "339f206f-309a-4862-bb8a-9ae49a98f970")
 	)
 	(no_connect
-		(at 320.04 64.77)
-		(uuid "38bdeddc-1f40-487e-8519-8cc09e3f56de")
-	)
-	(no_connect
 		(at 320.04 140.97)
 		(uuid "44cc4e46-d976-426c-98a8-240518d2ad8a")
 	)
@@ -8470,6 +8466,10 @@
 	(no_connect
 		(at 320.04 95.25)
 		(uuid "479d4439-969e-4dc4-8510-72756ea099ac")
+	)
+	(no_connect
+		(at 320.04 90.17)
+		(uuid "48201482-a7c5-42bb-9e5a-278a0ec982b6")
 	)
 	(no_connect
 		(at 414.02 200.66)
@@ -8492,8 +8492,8 @@
 		(uuid "72431f0e-1428-476f-b397-7f75868c20e9")
 	)
 	(no_connect
-		(at 320.04 72.39)
-		(uuid "b9212fbf-91b3-4940-936b-17c7b66703e9")
+		(at 320.04 67.31)
+		(uuid "b645c0a0-30f5-4009-bcf9-0f0cbbddd955")
 	)
 	(no_connect
 		(at 320.04 128.27)
@@ -12356,6 +12356,16 @@
 		)
 		(uuid "117acbd9-e8cb-4cfc-9005-cbe267f62821")
 	)
+	(label "GPIO3"
+		(at 102.87 266.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "120afcfc-5217-4755-ba8f-56a56cfeec68")
+	)
 	(label "GPIO5"
 		(at 320.04 77.47 180)
 		(effects
@@ -12466,6 +12476,16 @@
 		)
 		(uuid "32fa10b4-4d4d-413f-ba03-e2b692f26b35")
 	)
+	(label "GPIO13"
+		(at 102.87 254 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "330878e2-362d-4a2d-886d-b0fd573d2c23")
+	)
 	(label "cc2"
 		(at 289.56 208.28 0)
 		(effects
@@ -12487,7 +12507,7 @@
 		(uuid "357e7838-d3c8-4098-a83a-a6fa08f63fac")
 	)
 	(label "GPIO14"
-		(at 102.87 254 180)
+		(at 102.87 248.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12675,26 +12695,6 @@
 			(justify left bottom)
 		)
 		(uuid "6e3b5a4a-57bb-42b8-9291-d7068f402e30")
-	)
-	(label "GPIO1"
-		(at 102.87 248.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fd9514c-82d2-471f-9773-1576c9f89bc5")
-	)
-	(label "GPIO10"
-		(at 102.87 259.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6fed1b0a-6ab2-4cb7-9323-1bf7e9636c5c")
 	)
 	(label "QSPI_SS"
 		(at 111.76 194.31 0)
@@ -12956,16 +12956,6 @@
 		)
 		(uuid "d240fdba-54db-4b40-a5e2-81d9b8c34b8f")
 	)
-	(label "GPIO13"
-		(at 102.87 266.7 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1b50ee3-60a9-4d5e-b528-c15d355d225e")
-	)
 	(label "QSPI_SD1"
 		(at 227.33 72.39 0)
 		(effects
@@ -13075,6 +13065,16 @@
 			(justify left bottom)
 		)
 		(uuid "f510cf5c-5bb4-4705-84c4-f8525087caa9")
+	)
+	(label "GPIO0"
+		(at 102.87 259.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbb85e0c-6848-4722-9486-1df5dea6d22d")
 	)
 	(label "~{USB_BOOT}"
 		(at 88.9 194.31 0)
